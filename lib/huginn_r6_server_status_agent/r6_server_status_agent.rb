@@ -18,19 +18,20 @@ module Agents
 
     event_description <<-MD
       Events look like this:
-        {
-          "AppID ": "e3d5ea9e-50bd-43b7-88bf-39794f4e3d40",
-          "MDM": "4073",
-          "SpaceID": "5172a557-50b5-4665-b7db-e3f2e8c5041d",
-          "Category": "Instance",
-          "Name": "Rainbow Six Siege - PC - LIVE",
-          "Platform": "PC",
-          "Status": "Online",
-          "Maintenance": null,
-          "ImpactedFeatures": [
-      
-          ]
-        }
+
+          {
+            "AppID ": "e3d5ea9e-50bd-43b7-88bf-39794f4e3d40",
+            "MDM": "4073",
+            "SpaceID": "5172a557-50b5-4665-b7db-e3f2e8c5041d",
+            "Category": "Instance",
+            "Name": "Rainbow Six Siege - PC - LIVE",
+            "Platform": "PC",
+            "Status": "Online",
+            "Maintenance": null,
+            "ImpactedFeatures": [
+        
+            ]
+          }
     MD
 
     def default_options
