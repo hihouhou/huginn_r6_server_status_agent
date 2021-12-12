@@ -3,11 +3,11 @@ module Agents
     include FormConfigurable
     can_dry_run!
     no_bulk_receive!
-    default_schedule '1h'
+    default_schedule 'every_1h'
 
     description do
       <<-MD
-      The Github notification agent fetches notifications and creates an event by notification.
+      The R6 server status agent checks server status and creates event has changed.
 
       `changes_only` is only used to emit event about a status' change.
 
